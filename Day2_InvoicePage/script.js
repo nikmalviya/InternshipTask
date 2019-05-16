@@ -28,7 +28,7 @@ function calculateDiscount(){
     total = document.getElementById("total");
     discount = document.getElementById("discount").value;
     if (!isNaN(discount) && discount!=""){        
-        total.value = parseFloat(subtotal.value) - parseFloat(subtotal.value)*parseFloat(discount)/100
+        total.value = parseFloat(subtotal.value) - parseFloat(subtotal.value) * parseFloat(discount) / 100
     }
 
 }
